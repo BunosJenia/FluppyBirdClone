@@ -15,6 +15,8 @@
 		E3480C2A24B5C116007B7D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C2824B5C116007B7D19 /* Main.storyboard */; };
 		E3480C2C24B5C11D007B7D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3480C2B24B5C11D007B7D19 /* Assets.xcassets */; };
 		E3480C2F24B5C11D007B7D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C2D24B5C11D007B7D19 /* LaunchScreen.storyboard */; };
+		E3480C3A24B5E66D007B7D19 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C3924B5E66D007B7D19 /* Structs.swift */; };
+		E3480C4224B600DE007B7D19 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = E3480C4124B600DE007B7D19 /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E3480C2B24B5C11D007B7D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3480C2E24B5C11D007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3480C3024B5C11D007B7D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3480C3924B5E66D007B7D19 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		E3480C4124B600DE007B7D19 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +64,35 @@
 		E3480C1D24B5C116007B7D19 /* CloneFlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				E3480C4124B600DE007B7D19 /* 04B_19__.TTF */,
+				E3480C3824B5E656007B7D19 /* Models */,
+				E3480C3724B5E629007B7D19 /* Controllers */,
 				E3480C1E24B5C116007B7D19 /* AppDelegate.swift */,
 				E3480C2024B5C116007B7D19 /* GameScene.sks */,
 				E3480C2224B5C116007B7D19 /* Actions.sks */,
 				E3480C2424B5C116007B7D19 /* GameScene.swift */,
-				E3480C2624B5C116007B7D19 /* GameViewController.swift */,
 				E3480C2824B5C116007B7D19 /* Main.storyboard */,
 				E3480C2B24B5C11D007B7D19 /* Assets.xcassets */,
 				E3480C2D24B5C11D007B7D19 /* LaunchScreen.storyboard */,
 				E3480C3024B5C11D007B7D19 /* Info.plist */,
 			);
 			path = CloneFlappyBird;
+			sourceTree = "<group>";
+		};
+		E3480C3724B5E629007B7D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C2624B5C116007B7D19 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3480C3824B5E656007B7D19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C3924B5E66D007B7D19 /* Structs.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3480C2A24B5C116007B7D19 /* Main.storyboard in Resources */,
+				E3480C4224B600DE007B7D19 /* 04B_19__.TTF in Resources */,
 				E3480C2124B5C116007B7D19 /* GameScene.sks in Resources */,
 				E3480C2C24B5C11D007B7D19 /* Assets.xcassets in Resources */,
 				E3480C2F24B5C11D007B7D19 /* LaunchScreen.storyboard in Resources */,
@@ -146,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3480C3A24B5E66D007B7D19 /* Structs.swift in Sources */,
 				E3480C2524B5C116007B7D19 /* GameScene.swift in Sources */,
 				E3480C2724B5C116007B7D19 /* GameViewController.swift in Sources */,
 				E3480C1F24B5C116007B7D19 /* AppDelegate.swift in Sources */,
